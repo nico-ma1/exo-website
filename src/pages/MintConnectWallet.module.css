@@ -1,0 +1,238 @@
+.mintedB {
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.inoutInput,
+.nftCountDiv {
+  display: flex;
+  flex-direction: row;
+}
+.nftCountDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.inoutInput {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+  width: 280px;
+  padding: 16px 24px;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+  text-align: center;
+  font-size: 20;
+  font-weight: 700;
+}
+.ammountInputDiv,
+.nftNumInputDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nftNumInputDiv {
+  align-items: center;
+  gap: 16px;
+}
+.notebookIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+}
+.rEADWIKIB {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #000;
+  text-align: left;
+}
+.button,
+.mintInputDiv {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  align-self: stretch;
+  border-radius: 8px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+}
+.button:hover {
+  background-color: #fbbe04;
+}
+.mintInputDiv {
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 172px);
+  border-radius: 16px;
+  background-color: #1a202c;
+  width: 344px;
+  flex-direction: column;
+  padding: 24px 32px;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.exoLogoIcon {
+  position: absolute;
+  height: 101.12%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -1.12%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.exoLogoA {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  width: 140px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.rEADWIKIB1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: left;
+}
+.ghostButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.ghostButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.button1,
+.ghostButton,
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button1:hover {
+  background-color: #fbbe04;
+}
+.linksDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu2Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.rEADWIKIB4 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: none;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: left;
+}
+.hamburgerButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  height: 52px;
+  display: none;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.hamburgerButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.menuDiv,
+.navbarDiv {
+  display: flex;
+  flex-direction: row;
+}
+.menuDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.navbarDiv {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #1a202c;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 12px 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.mintConnectWallet {
+  position: relative;
+  width: 100%;
+  height: 1424px;
+  background-image: url(../../public/mint--mint@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 1920px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Akira Expanded";
+}
+@media screen and (max-width: 768px) {
+  .hamburgerButton {
+    display: flex;
+  }
+}
+@media screen and (max-width: 840px) {
+  .linksDiv {
+    display: none;
+  }
+  .hamburgerButton {
+    display: flex;
+  }
+}

@@ -1,0 +1,1215 @@
+.exoLogoIcon {
+  position: absolute;
+  height: 101.12%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -1.12%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.exoLogoA,
+.notebookIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.exoLogoA {
+  cursor: pointer;
+  text-decoration: none;
+  width: 140px;
+  height: 40px;
+}
+.notebookIcon {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.rEADWIKIB {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: left;
+}
+.ghostButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.ghostButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.rEADWIKIB2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #000;
+  text-align: left;
+}
+.button,
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: #fbbe04;
+}
+.linksDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu2Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.rEADWIKIB3 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: none;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: left;
+}
+.hamburgerButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  height: 52px;
+  display: none;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.hamburgerButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.menuDiv,
+.navbarDiv {
+  display: flex;
+  flex-direction: row;
+}
+.menuDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.navbarDiv {
+  align-self: stretch;
+  background-color: #1a202c;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 12px 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.blurGradientIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 815.68px);
+  left: calc(50% - 1251.68px);
+  width: 1575.36px;
+  height: 1575.36px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.exoVideo {
+  position: absolute;
+  height: 100%;
+  width: 100.07%;
+  top: 0;
+  right: -0.07%;
+  bottom: 0;
+  left: 0;
+  border-radius: 16px;
+  background-image: url(../../public/exo-video@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.heroVideoDiv {
+  flex: 1;
+  position: relative;
+  border-radius: 16px;
+  height: auto;
+  aspect-ratio: 1;
+}
+.exoLogoIcon1 {
+  position: relative;
+  width: 189.99px;
+  height: 54.61px;
+  flex-shrink: 0;
+}
+.exoLogoDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 24px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.questToLiberate {
+  color: #fcd55f;
+}
+.largeFontH1,
+.pDiv {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.largeFontH1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.pDiv {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 36px;
+  font-family: Orbitron;
+  color: #f3f4f7;
+}
+.heroTextDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.button1,
+.cTADiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  flex: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.button1:hover,
+.button3:hover {
+  background-color: #fbbe04;
+}
+.cTADiv {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.heroContentDiv1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 42px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+.heroContentDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 72px;
+  z-index: 1;
+}
+.adamIcon {
+  position: absolute;
+  top: -25px;
+  left: -40px;
+  border-radius: 16px 0 0 16px;
+  width: 192px;
+  height: 192px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.labelDiv {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 24px;
+  display: inline-block;
+}
+.textboxDiv {
+  position: absolute;
+  top: 0;
+  left: 112px;
+  border-radius: 0 16px 16px 0;
+  background-color: #2d3748;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 15px 40px rgba(0, 0, 0, 0.4);
+  width: 392px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.adamsSpeechBubble {
+  position: absolute;
+  margin: 0 !important;
+  top: 61px;
+  left: 390px;
+  width: 504px;
+  height: 112px;
+  flex-shrink: 0;
+  z-index: 2;
+  font-size: 16px;
+  color: #f3f4f7;
+  font-family: Orbitron;
+}
+.heroSectionDiv,
+.largeFontDiv {
+  align-self: stretch;
+  position: relative;
+}
+.heroSectionDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 164px 48px 192px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+}
+.largeFontDiv {
+  line-height: 50px;
+  display: inline-block;
+}
+.eXOsStandAlone {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.onceDesignedTo {
+  margin: 0;
+}
+.button3,
+.loreIntroTextDiv {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.loreIntroTextDiv {
+  flex: 1;
+  flex-direction: column;
+  padding: 44px 0 0;
+  align-items: flex-start;
+  gap: 40px;
+}
+.eVAANIMATION2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 16px;
+  background-image: url(../../public/evaanimation2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.videoDiv {
+  flex: 1;
+  position: relative;
+  height: auto;
+  aspect-ratio: 1;
+}
+.loreIntroColsDiv,
+.loreIntroDiv {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.loreIntroColsDiv {
+  flex: 1;
+  padding: 0 48px;
+  gap: 124px;
+}
+.loreIntroDiv {
+  align-self: stretch;
+  padding: 104px 0 0;
+}
+.exoComb1,
+.exoComb2,
+.exoComb3 {
+  position: absolute;
+  height: 46.72%;
+  width: 31.85%;
+  top: 53.28%;
+  right: 36.31%;
+  bottom: 0;
+  left: 31.85%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.exoComb1,
+.exoComb3 {
+  height: 53.28%;
+  width: 36.31%;
+  top: 0;
+  right: 0;
+  bottom: 46.72%;
+  left: 63.69%;
+}
+.exoComb1 {
+  height: 46.72%;
+  width: 31.85%;
+  top: 6.55%;
+  right: 68.15%;
+  left: 0;
+}
+.imagesDiv {
+  align-self: stretch;
+  position: relative;
+  height: auto;
+  flex-shrink: 0;
+  aspect-ratio: 1.33;
+}
+.exoCombsDiv,
+.loreSectionDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exoCombsDiv {
+  padding: 112px 144px 0 48px;
+  box-sizing: border-box;
+}
+.loreSectionDiv {
+  font-size: 42px;
+}
+.exoCutout1Icon,
+.exoFeaturesSection {
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+}
+.exoFeaturesSection {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.exoCutout1Icon {
+  left: 48px;
+  width: 632px;
+  height: 632px;
+}
+.featuresImageDiv {
+  flex: 1;
+  position: relative;
+  height: 632px;
+}
+.labelDiv1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.08em;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 0;
+}
+.iconDiv {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 22px);
+  left: -22px;
+  border-radius: 800px;
+  background-color: #2e67d1;
+  padding: 10px;
+  z-index: 1;
+}
+.featureDiv,
+.iconDiv,
+.iconDiv1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.featureDiv {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #1a202c;
+  border: 1px solid #1a202c;
+  position: relative;
+  padding: 20px 32px 20px 48px;
+  gap: 8px;
+}
+.iconDiv1 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 22px);
+  left: -22px;
+  border-radius: 800px;
+  background-color: #de21b1;
+  padding: 10px;
+  z-index: 1;
+}
+.featureDiv1 {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #1a202c;
+  border: 1px solid #1a202c;
+  position: relative;
+  padding: 20px 32px 20px 48px;
+  align-items: center;
+  gap: 8px;
+}
+.featureDiv1,
+.iconDiv2,
+.iconDiv3,
+.iconDiv4,
+.indentFeatureDiv {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.indentFeatureDiv {
+  align-self: stretch;
+  padding: 0 0 0 40px;
+  align-items: flex-start;
+}
+.iconDiv2,
+.iconDiv3,
+.iconDiv4 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 22px);
+  left: -22px;
+  border-radius: 800px;
+  background-color: #6509e6;
+  padding: 10px;
+  align-items: center;
+  z-index: 1;
+}
+.iconDiv3,
+.iconDiv4 {
+  left: -23px;
+  background-color: #099e71;
+}
+.iconDiv4 {
+  left: -22px;
+  background-color: #e51a53;
+}
+.featuresDiv,
+.featuresListDiv {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featuresDiv {
+  flex-direction: column;
+  gap: 12px;
+}
+.featuresListDiv {
+  flex-direction: row;
+  padding: 0 0 8px 48px;
+  box-sizing: border-box;
+}
+.featuresContentDiv,
+.featuresSection1Div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.featuresSection1Div {
+  flex-direction: column;
+  padding: 200px 120px 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  font-size: 16px;
+  color: #f3f4f7;
+  font-family: Orbitron;
+}
+.largeFontDiv1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 64px;
+  display: inline-block;
+}
+.button4,
+.loreIntroTextDiv1 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.button4:hover {
+  background-color: #fcca31;
+}
+.loreIntroTextDiv1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 44px 0 0;
+  align-items: flex-start;
+  gap: 40px;
+}
+.samaEcoMobile {
+  position: absolute;
+  right: -0.33px;
+  bottom: 1px;
+  width: 414px;
+  height: 655px;
+  overflow: hidden;
+}
+.ecoImgmobileDiv {
+  flex: 1;
+  position: relative;
+  height: 656px;
+  display: none;
+}
+.samaEcoIcon {
+  position: absolute;
+  top: -144.18px;
+  right: -367.18px;
+  width: 944.36px;
+  height: 944.36px;
+}
+.ecoImgDiv {
+  flex: 1;
+  position: relative;
+  height: 656px;
+}
+.ecoColsDiv {
+  flex: 1;
+  padding: 0 0 0 48px;
+  box-sizing: border-box;
+  gap: 124px;
+}
+.ecoColsDiv,
+.ecoSectionDiv,
+.iconDiv5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ecoSectionDiv {
+  align-self: stretch;
+}
+.iconDiv5 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 22px);
+  left: -18px;
+  border-radius: 800px;
+  background-color: #2e67d1;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.featureDiv5 {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #1a202c;
+  border: 1px solid #1a202c;
+  position: relative;
+  padding: 20px 20px 20px 48px;
+  gap: 8px;
+}
+.featureDiv5,
+.featureDiv6,
+.iconDiv6 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.featureDiv6 {
+  flex: 1;
+  border-radius: 16px;
+  background-color: #1a202c;
+  border: 1px solid #1a202c;
+  position: relative;
+  padding: 20px 20px 20px 48px;
+  z-index: 0;
+}
+.iconDiv6 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 22px);
+  left: 18px;
+  border-radius: 800px;
+  background-color: #099e71;
+  padding: 10px;
+  z-index: 1;
+}
+.featuresLeftDiv,
+.featuresListDiv1,
+.indentFeatureDiv2 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.indentFeatureDiv2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 40px;
+  position: relative;
+  gap: 8px;
+}
+.featuresLeftDiv,
+.featuresListDiv1 {
+  flex: 1;
+}
+.featuresListDiv1 {
+  flex-direction: column;
+  padding: 0 0 0 16px;
+  gap: 12px;
+}
+.featuresLeftDiv {
+  flex-direction: row;
+  padding: 0 0 240px;
+}
+.exoCenterBackdrop {
+  position: absolute;
+  width: calc(100% - -0.67px);
+  right: -0.33px;
+  bottom: 0;
+  left: -0.33px;
+  max-width: 100%;
+  height: 280px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.eXOCenterDiv,
+.exoCutout2Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.exoCutout2Icon {
+  width: 110.23%;
+  right: -10.23%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.eXOCenterDiv {
+  width: 100%;
+  right: 0;
+}
+.exoMidDiv {
+  flex: 1;
+  position: relative;
+  height: auto;
+  aspect-ratio: 1;
+  margin-left: -142px;
+}
+.button5,
+.featuresListDiv2,
+.indentFeatureDiv3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.indentFeatureDiv3 {
+  padding: 0 0 0 40px;
+  box-sizing: border-box;
+}
+.button5,
+.featuresListDiv2 {
+  gap: 12px;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button5:hover,
+.button6:hover {
+  background-color: #fbbe04;
+}
+.featuresRightDiv,
+.mintCTADiv {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mintCTADiv {
+  align-self: stretch;
+  padding: 0 0 0 80px;
+}
+.featuresRightDiv {
+  flex: 1;
+  padding: 44px 0 0 120px;
+  gap: 40px;
+  margin-left: -142px;
+}
+.features2SectionDiv,
+.featuresContentDiv1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.features2SectionDiv {
+  flex-direction: column;
+  padding: 40px 50px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  font-size: 16px;
+  color: #f3f4f7;
+  font-family: Orbitron;
+}
+.blurGradientIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 295px);
+  left: calc(50% - 768px);
+  width: 1536px;
+  height: 590px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.button6,
+.leftDiv,
+.socialButtonsDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  flex: 1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.leftDiv,
+.socialButtonsDiv {
+  justify-content: flex-start;
+}
+.leftDiv {
+  flex: 1;
+  align-items: flex-start;
+}
+.socialButtonsDiv {
+  align-self: stretch;
+  align-items: center;
+}
+.joinTheCommunityCTADiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+.joinContentDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 144px 200px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.homeDiv,
+.joinCommunitySectionDiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.joinCommunitySectionDiv {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 80px 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 42px;
+}
+.homeDiv {
+  background-color: #171923;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1920px;
+  text-align: left;
+  font-size: 54px;
+  color: #fff;
+  font-family: "Akira Expanded";
+}
+@media screen and (max-width: 1200px) {
+  .heroContentDiv1,
+  .heroVideoDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .heroContentDiv1 {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .heroContentDiv {
+    flex-direction: column;
+  }
+  .heroSectionDiv {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+  }
+  .loreIntroTextDiv {
+    display: flex;
+  }
+  .loreIntroTextDiv,
+  .videoDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .loreIntroColsDiv {
+    flex-direction: column;
+  }
+  .loreIntroDiv {
+    padding-top: 80px;
+    box-sizing: border-box;
+  }
+  .exoCombsDiv {
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+  .featuresImageDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .featuresDiv {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .featuresListDiv {
+    padding-top: 1px;
+    padding-right: 0;
+    box-sizing: border-box;
+    margin-top: -40px;
+    flex: unset;
+    align-self: stretch;
+  }
+  .featuresContentDiv {
+    flex-direction: column;
+  }
+  .featuresSection1Div,
+  .loreIntroTextDiv1 {
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+  .loreIntroTextDiv1 {
+    padding-top: 80px;
+    display: flex;
+  }
+  .ecoImgDiv,
+  .ecoImgmobileDiv,
+  .loreIntroTextDiv1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .ecoColsDiv {
+    flex-direction: column;
+  }
+  .exoMidDiv,
+  .featuresLeftDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .featuresLeftDiv {
+    padding-bottom: 64px;
+    box-sizing: border-box;
+  }
+  .exoMidDiv {
+    right: -48px;
+  }
+  .featuresRightDiv,
+  .mintCTADiv {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .featuresRightDiv {
+    padding-left: 48px;
+    padding-top: 0;
+    margin-left: 0;
+    flex: unset;
+    align-self: stretch;
+  }
+  .featuresContentDiv1 {
+    flex-direction: column;
+    padding-left: 48px;
+    box-sizing: border-box;
+  }
+  .leftDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .socialButtonsDiv {
+    flex-direction: column;
+  }
+  .joinContentDiv {
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hamburgerButton {
+    display: flex;
+  }
+  .button1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cTADiv {
+    flex-direction: column;
+    padding-top: 0;
+    box-sizing: border-box;
+    margin-top: 40px;
+  }
+  .adamsSpeechBubble {
+    display: none;
+  }
+  .heroSectionDiv {
+    padding-bottom: 40px;
+  }
+  .heroSectionDiv,
+  .loreIntroColsDiv {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .loreIntroDiv {
+    padding-top: 40px;
+    box-sizing: border-box;
+  }
+  .exoCombsDiv {
+    padding-left: 24px;
+    padding-top: 80px;
+  }
+  .exoCombsDiv,
+  .featuresSection1Div {
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .loreIntroTextDiv1 {
+    padding-top: 80px;
+    box-sizing: border-box;
+  }
+  .ecoImgmobileDiv {
+    display: flex;
+  }
+  .ecoImgDiv {
+    display: none;
+  }
+  .ecoColsDiv {
+    padding-left: 24px;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .ecoSectionDiv {
+    padding-top: 80px;
+    box-sizing: border-box;
+  }
+  .featuresContentDiv1,
+  .featuresRightDiv {
+    padding-left: 24px;
+    box-sizing: border-box;
+  }
+  .button6 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .leftDiv {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 428px) {
+  .largeFontH1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .adamsSpeechBubble {
+    display: none;
+  }
+  .heroSectionDiv,
+  .loreIntroColsDiv {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .exoCombsDiv,
+  .loreIntroDiv {
+    padding-top: 40px;
+    box-sizing: border-box;
+  }
+  .exoCombsDiv {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .exoCutout1Icon {
+    left: -120;
+  }
+  .featuresListDiv {
+    padding-left: 16px;
+    box-sizing: border-box;
+  }
+  .featuresSection1Div,
+  .loreIntroTextDiv1 {
+    padding-top: 120px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .loreIntroTextDiv1 {
+    padding-left: 16px;
+    padding-top: 48px;
+  }
+  .ecoColsDiv {
+    padding-right: 0;
+  }
+  .ecoColsDiv,
+  .featuresContentDiv1,
+  .featuresRightDiv,
+  .joinContentDiv {
+    padding-left: 16px;
+    box-sizing: border-box;
+  }
+  .joinContentDiv {
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .largeFontH1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .linksDiv {
+    display: none;
+  }
+  .hamburgerButton {
+    display: flex;
+  }
+  .heroContentDiv1 {
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .button1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cTADiv {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 560px) {
+  .adamsSpeechBubble {
+    left: 8;
+  }
+}
+@media screen and (max-width: 944px) {
+  .leftDiv {
+    flex: unset;
+    align-self: stretch;
+  }
+  .socialButtonsDiv {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,257 @@
+.exoLogoIcon {
+  position: absolute;
+  height: 101.12%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: -1.12%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.exoLogoA,
+.notebookIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.exoLogoA {
+  cursor: pointer;
+  text-decoration: none;
+  width: 140px;
+  height: 40px;
+}
+.notebookIcon {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.rEADWIKIB {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: left;
+}
+.ghostButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.ghostButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.rEADWIKIB2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #000;
+  text-align: left;
+}
+.button,
+.linksDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover {
+  background-color: #fbbe04;
+}
+.linksDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menu2Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.rEADWIKIB3 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: none;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: left;
+}
+.hamburgerButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  height: 52px;
+  display: none;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.hamburgerButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.menuDiv,
+.navbarDiv {
+  display: flex;
+  flex-direction: row;
+}
+.menuDiv {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.navbarDiv {
+  align-self: stretch;
+  background-color: #1a202c;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 12px 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.eXOsStandAlone {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.joinEVAIn1 {
+  margin: 0;
+}
+.pDiv {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 36px;
+  display: inline-block;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  flex: 1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button1:hover {
+  background-color: #fcca31;
+}
+.cTAsDiv,
+.loreContainerDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cTAsDiv {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 8px;
+}
+.loreContainerDiv {
+  flex: 1;
+  flex-direction: column;
+  gap: 64px;
+}
+.loreBodyDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 280px 200px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../public/lorebody@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.loreDiv {
+  position: relative;
+  background-color: #171923;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1920px;
+  text-align: left;
+  font-size: 20px;
+  color: #f3f4f7;
+  font-family: Orbitron;
+}
+@media screen and (max-width: 1200px) {
+  .button1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cTAsDiv {
+    flex-direction: column;
+  }
+  .loreBodyDiv {
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hamburgerButton {
+    display: flex;
+  }
+  .button1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cTAsDiv {
+    flex-direction: column;
+  }
+  .loreBodyDiv {
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 428px) {
+  .loreBodyDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 840px) {
+  .linksDiv {
+    display: none;
+  }
+  .hamburgerButton {
+    display: flex;
+  }
+}
