@@ -1,0 +1,123 @@
+.connectYourWallet {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.textDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 75%;
+  width: 83.98%;
+  top: 12.5%;
+  right: 8.01%;
+  bottom: 12.5%;
+  left: 8.01%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 0;
+}
+.metamaskDiv {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rEADWIKIB {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #000;
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button:hover {
+  background-color: #fbbe04;
+}
+.talismanIcon {
+  position: relative;
+  width: 23.99px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.frameIcon,
+.talismanDiv {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.talismanDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameIcon {
+  position: relative;
+}
+.walletsDiv {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+}
+.connectWalletDiv,
+.walletSelectDiv,
+.walletsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.connectWalletDiv {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #1a202c;
+  padding: 24px 32px;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 16px;
+}
+.walletSelectDiv {
+  position: relative;
+  width: 360px;
+  align-items: flex-start;
+  top: 120px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Akira Expanded";
+}
+@media screen and (max-width: 428px) {
+  .walletSelectDiv {
+    top: 120px;
+    display: flex;
+  }
+}

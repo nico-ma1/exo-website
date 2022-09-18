@@ -1,0 +1,104 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.notebookIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+}
+.rEADWIKIB {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #fff;
+  text-align: center;
+}
+.ghostButton {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.ghostButton:hover {
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.rEADWIKIB2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: "Akira Expanded";
+  color: #171923;
+  text-align: center;
+}
+.button,
+.mobileLinksDiv {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 24px;
+  background-color: #fcd55f;
+  border-radius: 8px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.button:hover {
+  background-color: #fbbe04;
+}
+.mobileLinksDiv {
+  flex-direction: column;
+}
+.mobileDrawerDiv,
+.mobileMenuDiv {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+}
+.mobileMenuDiv {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #1a202c;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.mobileDrawerDiv.animate,
+.mobileMenuDiv.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
+.mobileDrawerDiv {
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 90%;
+  overflow: auto;
+}
