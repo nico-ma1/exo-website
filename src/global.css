@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap");
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("../public/Akira Super Bold.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("../public/Akira Regular.ttf");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
